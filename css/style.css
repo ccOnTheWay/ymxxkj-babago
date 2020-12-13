@@ -54,13 +54,13 @@ h5,
 h6 {
   margin: 0;
   padding: 0;
-  font-family: "Pacifico", cursive;
+  /* font-family: "Pacifico", cursive; */
 }
 
 p {
   margin: 0;
   padding: 0;
-  font-family: "Barlow Semi Condensed", sans-serif;
+  /* font-family: "Barlow Semi Condensed", sans-serif; */
   font-size: 16px;
   letter-spacing: 1px;
   line-height: 1.9;
@@ -239,7 +239,7 @@ a:hover {
   border-radius: 4px;
   border: none;
   letter-spacing: 1px;
-  font-family: "Pacifico", cursive;
+  /* font-family: "Pacifico", cursive; */
   box-shadow: 0 2px 25px rgba(14, 14, 14, 0.5);
 }
 
@@ -374,7 +374,7 @@ a.btn.btn-primary.button-w3ls:hover {
 
 .box-b h3,
 .box-a h3 {
-  font-family: "Barlow Semi Condensed", sans-serif;
+  /* font-family: "Barlow Semi Condensed", sans-serif; */
 }
 
 .box-a:hover i,
