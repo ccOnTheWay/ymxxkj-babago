@@ -502,8 +502,8 @@ a.btn.btn-primary.button-w3ls:hover {
   /* background: rbga(255,255,255,.9); */
   box-shadow: 1px 2px 7px 1px rgba(12, 12, 12, 0.25);
 }
-.text-center{
-    text-align: center;
+.text-center {
+  text-align: center;
 }
 .events_info_w3ls p,
 .carousel-inner p {
@@ -578,7 +578,7 @@ a.btn.btn-primary.button-w3ls:hover {
   line-height: 35px;
 }
 
-.nbs-flexisel-item .item{
+.nbs-flexisel-item .item {
   margin: 0 auto;
 }
 
@@ -839,27 +839,32 @@ section.stats_test {
 /*-- //stats --*/
 
 .banner-2 {
-  background:rgb(187,187,251) url(../images/banner/banner.jpeg) no-repeat center;
-  background-size: 1200px 600px;
-  height: 600px;
+  background: rgb(187, 187, 251) url(../images/banner/banner.jpeg) no-repeat
+    center;
+  background-size: cover;
+  min-height: 800px;
 }
 .banner-3 {
-  background:rgb(254,239,180)  url(../images/banner/banner3.jpeg) no-repeat center;
-  background-size: 1200px 600px;
+  background: rgb(254, 239, 180) url(../images/banner/banner3.jpeg) no-repeat
+    center;
+  background-size: cover;
 }
 .banner-4 {
-  background:rgb(187,187,251) url(../images/banner/partner.jpg) no-repeat center;
-  background-size: 1200px 600px;
+  background: rgb(187, 187, 251) url(../images/banner/partner.jpg) no-repeat
+    center;
+  background-size: cover;
 }
 
 .banner-5 {
-  background:rgb(243,243,243) url(../images/banner/contact-us.jpg) no-repeat center;
-  background-size: 1200px 600px;
+  background: rgb(243, 243, 243) url(../images/banner/contact-us.jpg) no-repeat
+    center;
+  background-size: cover;
 }
 
 .banner-6 {
-  background:rgb(187,187,251) url(../images/banner/shop.jpeg) no-repeat center;
-  background-size: 1200px 600px;
+  background: rgb(187, 187, 251) url(../images/banner/shop.jpeg) no-repeat
+    center;
+  background-size: cover;
 }
 
 /*-- gallery --*/
@@ -1020,8 +1025,9 @@ p.quia {
 }
 
 .address-left {
-  line-height: 2;
+  line-height: 1;
   padding: 2em 1em;
+ 
 }
 
 .address-left span.fa {
@@ -1029,8 +1035,17 @@ p.quia {
   font-size: 1.5em;
 }
 
+.address-left span.fab {
+  color: #000000;
+  font-size: 1.5em;
+}
+
 .address-right {
   padding: 1em 0;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
 }
 
 .address-right a {
