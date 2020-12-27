@@ -92,7 +92,7 @@ a:hover {
   text-decoration: none;
   position: fixed;
   bottom: 24px;
-  right: 3%;
+  right: 5%;
   overflow: hidden;
   z-index: 999;
   width: 42px;
@@ -112,6 +112,10 @@ a:hover {
   opacity: 0;
   -moz-opacity: 0;
   filter: alpha(opacity=0);
+}
+
+.pogoSlider-progressBar{
+  display: none!important;
 }
 
 /*-- //bottom-to-top --*/
